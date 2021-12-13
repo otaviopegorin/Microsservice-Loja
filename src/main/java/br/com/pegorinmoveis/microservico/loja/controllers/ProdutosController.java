@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ProdutosController {
 
 	@GetMapping
-	private String Home() {
+	private String form() {
 		return "produtos";
 	}
 }
